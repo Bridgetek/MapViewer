@@ -4,10 +4,10 @@ MapViewer is a Windows (C#/.NET)application that displays information extracted 
 The application looks like this:
 ![](http://imgur.com/8u7qsK7.png)
 
-It was primarily developed for use with the **FTDI [FT900](http://www.ftdichip.com/MCU.html)** Microcontroller and associated toolchain but is generic enough to be useable for other GCC based toolchains. I've tested it with **Microchip's XC16 compiler** and should also be useful for XC32 (with some minimal porting).
+It was primarily developed for use with the **Bridgetek (formerly FTDI) [FT9xx](https://brtchip.com/product-category/products/ic/mcu-ic/)** Microcontroller and associated toolchain but is generic enough to be useable for other GCC based toolchains. I've tested it with **Microchip's XC16 compiler** and should also be useful for XC32 (with some minimal porting).
 
 I've written a blog post with more details on the application [here](http://www.embeddedrelated.com/showarticle/900.php).
-Prebuild executables are available under the [releases](https://github.com/govind-mukundan/MapViewer/releases).
+Prebuild executables are available under the [releases](https://github.com/Bridgetek/MapViewer/releases).
 
 # Usage Guide
 1. Input the paths to the MAP and ELF image in the text boxes.
@@ -19,7 +19,5 @@ Prebuild executables are available under the [releases](https://github.com/govin
 This shows you the modules that *depend on/are users of* the selected module. And allows you to easily answer questions like "which application files are responsible for the inclusion of floating point library routines in my project?" for instance. Note that the this view is a bit incomplete in that paths are truncated if the same node appears twice on it. The information looks like this:
 ![](https://i.imgur.com/i3CP5Gi.png)
 
-# Support
-<a href='https://ko-fi.com/govindm' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 
